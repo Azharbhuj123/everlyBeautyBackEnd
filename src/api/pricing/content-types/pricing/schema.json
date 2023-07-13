@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "faceAndNeck": {
+      "type": "integer"
+    },
+    "bikini": {
+      "type": "integer"
+    },
+    "arm": {
+      "type": "integer"
+    },
+    "leg": {
+      "type": "integer"
+    },
+    "back": {
+      "type": "integer"
+    },
+    "underArm": {
+      "type": "integer"
+    },
+    "abdomenal": {
+      "type": "integer"
+    },
+    "chest": {
+      "type": "integer"
+    }
+  }
+}

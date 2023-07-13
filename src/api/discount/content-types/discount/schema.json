@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discounts",
+  "info": {
+    "singularName": "discount",
+    "pluralName": "discounts",
+    "displayName": "discount",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "promoCode": {
+      "type": "string"
+    },
+    "UserId": {
+      "type": "string"
+    },
+    "slotId": {
+      "type": "string"
+    },
+    "isUsed": {
+      "type": "boolean",
+      "default": false
+    },
+    "user_slot": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::user-slot.user-slot"
+    },
+    "users": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "discounts"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slots",
+  "info": {
+    "singularName": "slot",
+    "pluralName": "slots",
+    "displayName": "slot",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "available_slot": {
+      "type": "datetime",
+      "default": "2023-06-03T05:29:00.000Z",
+      "required": false,
+      "unique": false
+    }
+  }
+}
